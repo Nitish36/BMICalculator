@@ -17,8 +17,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
-    TextView mcurrentheight;
-    TextView mcurrentweight,mcurrentage;
+    TextView mcurrentqqwqheight;
+    TextView mcurrentweight,mcurrentage,mcurrentheight;
     ImageView mincrementage,mdecrementage,mincrementweight,mdecrementweight;
     SeekBar mseekbarforheight;
     Button mcalculatebmi;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); // to link java to xml
 
         getSupportActionBar().hide();
         mcurrentage=findViewById(R.id.currentage);

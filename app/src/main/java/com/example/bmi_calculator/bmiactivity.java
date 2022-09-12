@@ -38,7 +38,7 @@ public class bmiactivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bmiactivity);
+        setContentView(R.layout.activity_bmiactivity); // to link java to xml
         //noinspection ConstantConditions
         getSupportActionBar().setElevation(0);
         ColorDrawable colorDrawable=new ColorDrawable(Color.parseColor("#1E1D1D"));
